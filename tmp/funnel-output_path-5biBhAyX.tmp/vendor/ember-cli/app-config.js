@@ -1,0 +1,1 @@
+/Users/harinik/frontend/tmp/funnel-input_base_path-kizkUgft.tmp/app-config.js

@@ -1,0 +1,7 @@
+{{outlet}}
+{{input type="email" placeholder="Registered Email" value=email}} <br><br>
+{{input type="password" placeholder="password" value=password}}<br><br>
+<button {{action 'authenticate'}}>login</button><br><br>
+New user?{{#link-to "user"}}
+ Sign up
+{{/link-to}}

@@ -1,0 +1,4 @@
+QUnit.test('controllers/discover-book.js', function(assert) {
+  assert.expect(1);
+  assert.ok(false, 'controllers/discover-book.js should pass ESLint\n\n4:11 - Use import { inject } from \'@ember/service\'; instead of using Ember.inject.service (ember/new-module-imports)\n4:11 - \'Ember\' is not defined. (no-undef)\n5:9 - Use import { computed } from \'@ember/object\'; instead of using Ember.computed (ember/new-module-imports)\n5:9 - \'Ember\' is not defined. (no-undef)\n7:2 - Mixed spaces and tabs. (no-mixed-spaces-and-tabs)\n7:15 - Use import { hash } from \'rsvp\'; instead of using Ember.RSVP.hash (ember/new-module-imports)\n7:15 - \'Ember\' is not defined. (no-undef)\n8:2 - Mixed spaces and tabs. (no-mixed-spaces-and-tabs)\n8:12 - \'$\' is not defined. (no-undef)\n14:2 - Mixed spaces and tabs. (no-mixed-spaces-and-tabs)\n15:2 - Mixed spaces and tabs. (no-mixed-spaces-and-tabs)');
+});

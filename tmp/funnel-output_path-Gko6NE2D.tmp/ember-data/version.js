@@ -1,0 +1,1 @@
+/Users/harinik/frontend/tmp/creator-output_path-OF6tVtaz.tmp/version.js

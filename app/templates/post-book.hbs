@@ -1,0 +1,15 @@
+{{outlet}}
+{{input type="text" value=bookname placeholder="Enter book name"}}<br><br>
+{{input type="text" value=Authorname placeholder="Author"}}<br><br>
+{{input type="number" value=price placeholder="Enter price"}}<br><br>
+{{textarea value=description placeholder="Book description" cols="50" rows="6"}}<br>
+Genres : 
+<select onchange= {{action 'setGenre' value="target.value"}} >
+	<option disabled selected> Genres </option>
+{{#each model as |g|}}
+
+	<option>{{g.genre}}</option>
+
+{{/each}}
+</select> <br><br>
+<button {{action 'saveBook'}}>Submit</button>

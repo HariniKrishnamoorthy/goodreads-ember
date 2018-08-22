@@ -1,0 +1,8 @@
+define("frontend/templates/post-book", ["exports"], function (exports) {
+  "use strict";
+
+  Object.defineProperty(exports, "__esModule", {
+    value: true
+  });
+  exports.default = Ember.HTMLBars.template({ "id": "rlB5Fl/C", "block": "{\"symbols\":[\"g\"],\"statements\":[[1,[20,\"outlet\"],false],[0,\"\\n\"],[1,[26,\"input\",null,[[\"type\",\"value\",\"placeholder\"],[\"text\",[22,[\"bookname\"]],\"Enter book name\"]]],false],[6,\"br\"],[8],[9],[6,\"br\"],[8],[9],[0,\"\\n\"],[1,[26,\"input\",null,[[\"type\",\"value\",\"placeholder\"],[\"text\",[22,[\"Authorname\"]],\"Author\"]]],false],[6,\"br\"],[8],[9],[6,\"br\"],[8],[9],[0,\"\\n\"],[1,[26,\"input\",null,[[\"type\",\"value\",\"placeholder\"],[\"number\",[22,[\"price\"]],\"Enter price\"]]],false],[6,\"br\"],[8],[9],[6,\"br\"],[8],[9],[0,\"\\n\"],[1,[26,\"textarea\",null,[[\"value\",\"placeholder\",\"cols\",\"rows\"],[[22,[\"description\"]],\"Book description\",\"50\",\"6\"]]],false],[6,\"br\"],[8],[9],[0,\"\\nGenres : \\n\"],[6,\"select\"],[11,\"onchange\",[26,\"action\",[[21,0,[]],\"setGenre\"],[[\"value\"],[\"target.value\"]]]],[8],[0,\"\\n\\t\"],[6,\"option\"],[10,\"disabled\",\"\"],[10,\"selected\",\"\"],[8],[0,\" Genres \"],[9],[0,\"\\n\"],[4,\"each\",[[22,[\"model\"]]],null,{\"statements\":[[0,\"\\n\\t\"],[6,\"option\"],[8],[1,[21,1,[\"genre\"]],false],[9],[0,\"\\n\\n\"]],\"parameters\":[1]},null],[9],[0,\" \"],[6,\"br\"],[8],[9],[6,\"br\"],[8],[9],[0,\"\\n\"],[6,\"button\"],[3,\"action\",[[21,0,[]],\"saveBook\"]],[8],[0,\"Submit\"],[9]],\"hasEval\":false}", "meta": { "moduleName": "frontend/templates/post-book.hbs" } });
+});

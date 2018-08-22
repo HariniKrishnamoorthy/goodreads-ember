@@ -1,0 +1,1 @@
+/Users/harinik/frontend/app/components/log-out.js

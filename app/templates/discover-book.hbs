@@ -1,0 +1,17 @@
+{{outlet}}
+
+{{#if result.isPending}}
+
+{{else}}
+	{{#each result.res.books as |b|}}
+	<ul>
+
+	<li>NAME: {{b.bookname}}</li><br>
+	<li>AUTHOR: {{b.author}}</li><br>
+	<li>DESCRIPTION: {{b.description}}</li><br>
+	<li>PRICE: {{b.price}}</li><br><br>
+	
+
+	</ul>
+	{{/each}}
+{{/if}}

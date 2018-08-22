@@ -1,0 +1,1 @@
+/Users/harinik/frontend/tmp/funnel-input_base_path-65YmgaGZ.tmp/ajax.js

@@ -1,0 +1,14 @@
+{{outlet}}
+{{input type= "text" value=firstname placeholder="Firstname"}}<br>
+{{input type="text" value=lastname placeholder="Lastname"}}<br>
+{{input type = "email" value=email placeholder="Email"}}<br>
+{{input type ="password" value=password placeholder="Password"}}<br>
+
+
+
+{{#each model as |g|}}
+<input type="checkbox" onclick= {{action 'toggleCheckBox' g.genre}} {{!checked={{g.genre.checked}}/>
+{{g.genre}}
+<br>
+{{/each}}
+<button {{action 'signup'}}> submit </button>

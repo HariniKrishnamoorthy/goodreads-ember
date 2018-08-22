@@ -1,0 +1,1 @@
+/Users/harinik/frontend/tmp/funnel-input_base_path-lFapjOMD.tmp/mixins/data-adapter-mixin.js

@@ -1,0 +1,1 @@
+/Users/harinik/frontend/tmp/broccoli_merge_trees-input_base_path-JUPOzhCk.tmp/0/ember-data/transform.js

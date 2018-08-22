@@ -1,0 +1,1 @@
+/Users/harinik/frontend/tmp/funnel-input_base_path-5nOGU9fy.tmp/active-model-adapter.js
